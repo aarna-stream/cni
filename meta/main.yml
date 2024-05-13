@@ -1,0 +1,32 @@
+---
+galaxy_info:
+  role_name: cni
+  author: darkwizard242
+  description: Installs/Uninstalls CNI, i.e. Container Network Interface plugins.
+  company: none
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - jammy
+        - focal
+        - bionic
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+    - name: EL
+      versions:
+        - 8
+        - 7
+
+  galaxy_tags:
+    - cni
+    - kubernetes
+    - cli
+    - linux
+    - system
+
+dependencies: []
